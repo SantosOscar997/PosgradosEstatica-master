@@ -1,0 +1,21 @@
+li{
+    font-size: 1.3rem;
+
+}
+
+nav{
+    background-color: #1B396A;
+}
+
+.dropdown-menu,
+.dropdown-item{
+    background-color: #1B396A;
+}
+
+a {
+    transition: background-color .5s;
+  }
+
+  a:hover {
+    background-color: #1c6ea8;
+  }

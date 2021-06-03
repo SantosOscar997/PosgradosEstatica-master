@@ -1,0 +1,13 @@
+button,
+.accordion-button{
+    background-color: #014f86;  
+    transition: background-color .5s;
+    
+  }
+
+
+  
+  button:hover {
+    background-color: #336385;
+  }
+  
