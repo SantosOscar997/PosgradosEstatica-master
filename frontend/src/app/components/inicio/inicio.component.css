@@ -1,0 +1,63 @@
+.container-carrousel{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.accordion-container{
+    height: 40h;
+    width: 100vw;
+}   
+
+button,
+.accordion-button{
+    background-color: #014f86;  
+    transition: background-color .5s;
+    
+  }
+
+  .accordion-body{
+    border: solid 0.2rem #014f86;
+}
+
+  
+  button:hover {
+    background-color: #336385;
+  }
+p,
+button,
+span,
+a{
+    font-size: 1.6rem;
+}
+
+img{
+  height: 10vh;
+  width: 10vw;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+tr{
+
+  transition: background-color .5s;
+}
+
+tr:hover{
+  background-color: #e0e1e2;
+}
+
+td,
+th{
+  font-size: 1.6rem;
+}
+
+th{
+  background-color: #336385;
+}

@@ -1,0 +1,54 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 70vw;
+    height: 40vh;
+    border: 0.1rem solid #1B396A;
+
+}
+
+td{
+    font-size: 1.3rem;
+
+}
+
+th{
+    font-size: 1.3rem;
+}
+
+td:hover{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-container{
+    height: 9vh;
+    background-color: #1B396A; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tr{
+
+    transition: background-color .5s;
+  }
+
+  tr:hover{
+    background-color: #e0e1e2;
+  }
+
+  td,
+  th{
+    font-size: 1.1rem;
+  }
+

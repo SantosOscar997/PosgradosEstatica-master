@@ -1,0 +1,45 @@
+button,
+.accordion-button{
+    background-color: #014f86; 
+    transition: background-color .5s;
+
+
+}
+
+button:hover{
+    background-color: #1c6ea8;;
+}
+
+.icon-document{
+    width: 10vw;
+    height: 10vh;
+}
+
+
+a,
+button,
+h5{
+    
+    font-size: 1.6rem;
+}
+
+
+.accordion-body{
+    border: solid 0.2rem #014f86;
+}
+
+
+.col{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    transition: background-color .5s;
+}
+
+.row:hover{
+    background-color: rgb(238, 236, 236);
+}

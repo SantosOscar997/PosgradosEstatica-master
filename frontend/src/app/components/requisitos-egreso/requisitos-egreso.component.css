@@ -1,21 +1,59 @@
-.container-requisitos-obtencion-grado,
-.container-requisitos-examen-grado
-{
-    width: 50vw;
-    
-}
+
 
 button,
 .accordion-button{
-    background-color: #014f86;  
+    background-color: #1B396A;
     transition: background-color .5s;
-    
+
   }
 
 
-  
+
   button:hover {
-    background-color: #336385;
+    background-color: #1B396A;
   }
 
+p,
+button{
+    font-size: 1.6rem;
+}
 
+
+.accordion-body{
+  border: solid 0.2rem #1B396A;
+}
+
+img{
+  width: 45vw;
+  height: 70vh;
+  border-radius: 20rem;
+}
+
+.col2{
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+}
+
+.col{
+  width: 50vw;
+  height: 100vh;
+  margin-right: 0.2rem;
+}
+
+.acordion-item{
+  width: 50vw;
+  height: 100vh;
+}
+
+.row{
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}

@@ -1,13 +1,60 @@
 button,
 .accordion-button{
-    background-color: #014f86;  
+    background-color: #1B396A;
     transition: background-color .5s;
-    
+
   }
 
 
-  
+
   button:hover {
     background-color: #336385;
   }
-  
+
+  p,
+  button{
+      font-size: 1.6rem;
+  }
+
+  .accordion-body{
+    border: solid 0.2rem #1B396A;
+}
+
+
+.accordion-body{
+  border: solid 0.2rem #1B396A;
+}
+
+.col{
+  width: 50vw;
+  height: 100vh;
+  margin-right: 0.1rem ;
+}
+
+.col2{
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+}
+
+
+
+img{
+  width: 45vw;
+  height: 70vh;
+  border-radius: 2rem;
+}
+
+
+.main-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+}

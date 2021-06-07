@@ -6,6 +6,14 @@ button,
 }
 
 button:hover{
-    background-color: #1c6ea8;;
+    background-color: #1B396A;;
 }
 
+p,
+button{
+    font-size: 1.6rem;
+}
+
+.accordion-body{
+    border: solid 0.2rem #1B396A;
+}
