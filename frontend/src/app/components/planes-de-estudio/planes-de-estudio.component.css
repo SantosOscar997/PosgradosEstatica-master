@@ -1,34 +1,155 @@
-.acordiones{
-    background-color: #1B396A;
-    color: whitesmoke;
-    width: 50vw;
+.container{
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+    width: 100vw;
+    
+    
+}
 
+.container-lefth{
+    width: 40vw;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-rigth{
+    width: 60vw;
+    height: 200vh;
 
 }
 
-.main-container{
-    width: 50vw;
-    margin: 1rem;
-
-
+.col{
+    width: 53vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    margin-right:0.1rem;
 }
 
-.accordion-item{
+img{
     width: 50vw;
-
+    height: 50vh;
 }
 
-.material-icons{
-    margin-right:1rem;
+#img-estructura-general{
+    width: 35vw;
+    height: 40vh;
+}
+
+#img-plan-curricular-cuatro-semestres{
+    width: 52vw;
+    height: 70vh;
+}
+
+p,
+button,
+th,
+tr,
+li{
+    font-size: 1.6rem;
+}
+
+.container-img-genericStructur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-basics-asignatures,
+.table-optatives-asignatures,
+.table-tesis-seminar{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 30vh;
+}
+
+.table{
+    width: 45vw;
+    height: 30vh;
+    border-radius: 1rem solid #014f86;
+}
+
+thead{
+    background-color: #014f86;
+}
+
+tbody{
+    background-color: #ebebeb;
+}
+
+tr{
+    transition: background-color .5s;
+}
+
+tr:hover{
+    background-color: rgb(204, 204, 204)
+}
+
+.container-titleTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-optativesAsignatures{
+    margin-bottom: 10rem;
 }
 
 button,
 .accordion-button{
-    background-color: #014f86;
+    background-color: #014f86; 
     transition: background-color .5s;
 
 }
 
 button:hover{
     background-color: #1c6ea8;;
+} 
+
+.main-container-planDeEstudios{
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    
+}
+
+.main-container-mapaCurricular{
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    
+}
+
+.main-container-tesisSeminar,
+.main-container-optativesAsignatures{
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+
+
+#img-mapa-curricular{
+    width: 50vw;
+    height: 65vh;
+}
+
+.accordion-item{
+    border:  0.1rem solid rgb(7, 53, 138);
 }

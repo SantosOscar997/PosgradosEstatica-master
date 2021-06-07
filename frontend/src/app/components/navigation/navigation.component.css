@@ -1,21 +1,38 @@
-li{
-    font-size: 1.3rem;
 
-}
 
-nav{
-    background-color: #1B396A;
+.navbar,
+.main-container{
+    background-color: #014f86;
+    width:100vw;
 }
 
 .dropdown-menu,
 .dropdown-item{
-    background-color: #1B396A;
+    background-color: #014f86;
 }
 
-a {
+.dropdown-item {
     transition: background-color .5s;
   }
+  
+  .dropdown-item:hover {
+    background-color: #1c6ea8;
+    color: #014f86;
+  }
 
+  a{
+    transition: background-color .5s;
+    font-size: 1.6rem;
+    text-decoration: none;
+   
+    
+  }
+  
   a:hover {
     background-color: #1c6ea8;
+    color: #014f86;
   }
+
+
+
+

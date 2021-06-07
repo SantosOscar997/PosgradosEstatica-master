@@ -1,194 +1,154 @@
 <!--BARRA DE NAVEGACION-->
 
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid" style="width: 100vw">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link text-white align-middle" [routerLink]="['inicio']">
-            <span class="material-icons align-middle">
-              home
-             </span>
-            Inicio
-          </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle text-white"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          ><span class="material-icons align-middle me-1">
-              history_edu
-            </span>
-            General
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['perfiles']">
-                <span class="material-icons align-middle me-1">
-                  perm_identity
+<div class="main-container mt-3">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link text-white align-middle" [routerLink]="['inicio']">
+              <span class="material-icons align-middle">
+                home
+               </span>
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              General
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['perfiles']">
+                  <span class="material-icons align-middle me-1">
+                    perm_identity
+                    </span>
+                  Perfiles</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['objetivos']"
+                  >
+                  <span class="material-icons align-middle me-1">
+                    fact_check
                   </span>
-                Perfiles</a>
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['objetivos']"
+                  Objetvios y metas</a
                 >
-                <span class="material-icons align-middle me-1">
-                  fact_check
-                </span>
-                Objetvios y metas</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['planes-de-estudio']"
+              </li>
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['planes-de-estudio']"
+                  >
+                  <span class="material-icons align-middle me-1 ">
+                    book
+                    </span>
+                  Planes de estudio</a
                 >
-                <span class="material-icons align-middle me-1 ">
-                  book
-                  </span>
-                Planes de estudio</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['lgac']">LGAC</a>
-            </li>
-
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['seleccion-aspirantes']">
-                <span class="material-icons align-middle me-1">
-                  offline_pin
-                  </span>
-                Proceso de seleccion de aspirantes</a>
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['caracteristicas-tesis']">
-                <span class="material-icons align-middle me-1">
-                  import_contacts
-                  </span>
-                Características de Tesis</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle text-white"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          ><span class="material-icons align-middle me-1 ">
-            integration_instructions
-          </span>
-            Procesos Administrativos
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['requisitos-ingreso']"
-                >
-                <span class="material-icons align-middle me-1">
-                  arrow_forward
-                  </span>
-                Requisitos De Ingreso</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['requisitos-permanencia']"
-                >
-                <span class="material-icons me-1 align-middle">
-                  last_page
-                  </span>
-                Requisitos De Permanencia</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['requisitos-egreso']"
-                >
-                <span class="material-icons me-1 align-middle">
-                  west
-                  </span>
-                Requisitos De Egreso</a
-              >
-            </li>
-            <li><a class="dropdown-item text-white" href="#">
-              <span class="material-icons me-1 align-middle">
-                topic
-                </span>
-              Becas</a></li>
-            <li><a class="dropdown-item text-white" href="#">
-              <span class="material-icons align-middle me-1">
-                arrow_circle_down
-                </span>
-              Descargas</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" [routerLink]="['nucleo-academico']"
-            ><span class="material-icons align-middle me-1">
-              school
-              </span>
-              Núcleo Académico</a
-          >
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle text-white"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          ><span class="material-icons align-middle me-1">
-            people_outline
-            </span>
-            Estudiantes
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['primera-generacion']">
-                <span class="material-icons align-middle me-1">
-                  perm_identity
-                  </span>
-                Primera generación</a>
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['segunda-generacion']"
-                >
-                <span class="material-icons align-middle me-1">
-                  perm_identity
-                </span>
-                Segunda generación</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item text-white" [routerLink]="['tercera-generacion']"
-                >
-                <span class="material-icons align-middle me-1 ">
-                  perm_identity
-                  </span>
-                  Tercera generación</a
-              >
-            </li>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['lgac']">
+                  <span class="material-icons align-middle me-1">
+                    more_horiz
+                    </span>
+                  LGAC</a>
+              </li>
+  
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['seleccion-aspirantes']">
+                  <span class="material-icons align-middle me-1">
+                    offline_pin
+                    </span>
+                  Proceso de seleccion de aspirantes</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['caracteristicas-tesis']">
+                  <span class="material-icons align-middle me-1">
+                    import_contacts
+                    </span>
+                  Características de Tesis</a>
+              </li>
             </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" [routerLink]="['vinculacion']"
-            ><span class="material-icons align-middle me-1">
-            public
-            </span>
-            Vinculación</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" [routerLink]="['contacto']"
-            ><span class="material-icons align-middle me-1">
-                connect_without_contact
-              </span>Contacto</a
-          >
-        </li>
-      </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Procesos Administrativos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['requisitos-ingreso']"
+                  >
+                  <span class="material-icons align-middle me-1">
+                    arrow_forward
+                    </span>
+                  Requisitos De Ingreso</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['requisitos-permanencia']"
+                  >
+                  <span class="material-icons me-1 align-middle">
+                    last_page
+                    </span>
+                  Requisitos De Permanencia</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['requisitos-egreso']"
+                  >
+                  <span class="material-icons me-1 align-middle">
+                    west
+                    </span>
+                  Requisitos De Egreso</a
+                >
+              </li>
+              <li><a class="dropdown-item text-white" [routerLink]="['becas']">
+                <span class="material-icons me-1 align-middle">
+                  topic
+                  </span>
+                Becas</a></li>
+              <li>
+                <a class="dropdown-item text-white" [routerLink]="['descargas']">
+                <span class="material-icons align-middle me-1">
+                  arrow_circle_down
+                </span>
+  
+                Descargas
+              </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" [routerLink]="['nucleo-academico']"
+              >Núcleo Académico</a
+            >
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Estudiantes</a>
+          </li>
+          <li class="nav-item text-white">
+            <a class="nav-link text-white" href="#">Vinculación</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#">Contacto</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" [routerLink]="['normas-y-estatutos']">Normas y estatutos</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
+

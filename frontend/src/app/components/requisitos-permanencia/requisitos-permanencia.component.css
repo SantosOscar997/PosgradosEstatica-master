@@ -10,4 +10,51 @@ button,
   button:hover {
     background-color: #336385;
   }
+
+  p,
+  button{
+      font-size: 1.6rem;
+  }
+
+  .accordion-body{
+    border: solid 0.2rem #014f86;
+}
   
+  
+.accordion-body{
+  border: solid 0.2rem #014f86;
+}
+
+.col{
+  width: 50vw;
+  height: 100vh;
+  margin-right: 0.1rem ;
+}
+
+.col2{
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+}
+
+
+
+img{
+  width: 45vw;
+  height: 70vh;
+  border-radius: 2rem;
+}
+
+
+.main-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  
+}

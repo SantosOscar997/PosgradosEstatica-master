@@ -1,0 +1,44 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.row{
+    width: 100vw;
+    height: 100vh;
+}
+
+.accordion-item{
+    width: 80vw;
+    height: 100vh;
+}
+
+.accordion{
+    display: flex;
+    justify-content: center;
+}
+
+button,
+.accordion-button{
+    background-color: #014f86; 
+    transition: background-color .5s;
+
+}
+
+button:hover{
+    background-color: #1c6ea8;;
+} 
+
+p,
+button{
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    border: solid 0.2rem #014f86;
+}
+
+

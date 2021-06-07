@@ -12,5 +12,24 @@ button,
     background-color: #336385;
   }
 
+  p,
+button{
+    font-size: 1.3rem;
+}
+
   
 
+.accordion-body{
+  border: solid 0.2rem #014f86;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+}
+
+img{
+  width: 45vw;
+  height: 60vh;
+}

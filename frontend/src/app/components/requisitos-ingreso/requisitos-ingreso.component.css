@@ -1,12 +1,57 @@
 button,
-.accordion-button{
-    background-color: #014f86;  
-    transition: background-color .5s;
-    
-  }
+.accordion-button {
+  background-color: #014f86;
+  transition: background-color 0.5s;
+}
 
+button:hover {
+  background-color: #336385;
+}
 
-  
-  button:hover {
-    background-color: #336385;
-  }
+img {
+  width: 40vw;
+  height: 70vh;
+  border-radius:1rem solid #336385 ;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.col{
+  width: 50vw;
+  height: 100vh;
+}
+
+.container-img{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p,
+button{
+  font-size: 1.6rem;
+}
+
+.accordion-body{
+  border: solid 0.2rem #014f86;
+}
+
+.col2{
+  display: flex;
+  justify-content: center;
+  align-items:initial;
+}
+

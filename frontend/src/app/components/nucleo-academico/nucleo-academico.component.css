@@ -1,7 +1,7 @@
 .card {
   border-radius: 4px;
-  background: #fff;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  background: rgb(110, 143, 235);
+  box-shadow: 0 6px 10px rgba(15, 91, 233, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.3s box-shadow,
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
@@ -11,7 +11,7 @@
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(16, 88, 223, 0.12), 0 4px 8px rgba(16, 88, 223, 0.12);
+  box-shadow: 0 10px 20px rgba(45, 116, 248, 0.12), 0 4px 8px rgba(16, 88, 223, 0.12);
 }
 
 
@@ -21,21 +21,21 @@
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
-    background: #eee !important;
+    background: rgb(245, 244, 244) !important;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
+    background-color: #427ea8;
+    border-color: #427ea8;
     box-shadow: none;
     outline: none;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    background-color: #2b6188;
+    border-color: #1a5179;
 }
 
 section {
@@ -44,7 +44,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color:  #014f86;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -97,15 +97,15 @@ section .section-title {
     position: absolute;
     top: 0;
     left: 0;
-    background: white;
+    background: rgb(42, 81, 209);
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
-    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(78, 102, 141);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(78, 102, 141);
+    box-shadow: 5px 7px 9px -4px rgb(78, 102, 141);
 }
 
 .frontside,
@@ -128,17 +128,18 @@ section .section-title {
 
 .frontside .card,
 .backside .card {
-    min-height: 312px;
+  height: 125vh;
+   width: 35vw; 
 }
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #014f86;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #014f86;
 }
 
 .frontside .card .card-body img {
@@ -146,3 +147,10 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+
+p,
+button{
+    font-size: 1.3rem;
+}
+
+

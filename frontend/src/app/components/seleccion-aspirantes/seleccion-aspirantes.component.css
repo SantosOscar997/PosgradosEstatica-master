@@ -8,3 +8,24 @@ button,
 button:hover{
     background-color: #1c6ea8;;
 }
+
+p,
+button{
+    font-size: 1.3rem;
+}
+
+img{
+    width: 40vw;
+    height: 75vh;
+    border-radius: 3px solid black;
+}
+
+.accordion-body{
+    border: solid 0.2rem #014f86;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+}
