@@ -5,8 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { HeaderComponent } from './components/header/header.component';
-import { CarrouselComponent } from './components/carrousel/carrousel.component';
-import { routing } from './app.routing';
 import { PerfilesComponent } from './components/perfiles/perfiles.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ObjetivosComponent } from './components/objetivos/objetivos.component';
@@ -28,7 +26,6 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     AppComponent,
     NavigationComponent,
     HeaderComponent,
-    CarrouselComponent,
     PerfilesComponent,
     FooterComponent,
     ObjetivosComponent,
@@ -44,12 +41,11 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     TerceraGeneracionComponent,
     VinculacionComponent,
     ContactoComponent,
-  
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

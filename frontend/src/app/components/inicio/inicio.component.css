@@ -9,20 +9,20 @@
 .accordion-container{
     height: 40h;
     width: 100vw;
-}   
+}
 
 button,
 .accordion-button{
-    background-color: #014f86;  
+    background-color: #1B396A;
     transition: background-color .5s;
-    
+
   }
 
   .accordion-body{
-    border: solid 0.2rem #014f86;
+    border: solid 0.2rem #1B396A;
 }
 
-  
+
   button:hover {
     background-color: #336385;
   }
@@ -30,12 +30,7 @@ p,
 button,
 span,
 a{
-    font-size: 1.6rem;
-}
-
-img{
-  height: 10vh;
-  width: 10vw;
+    font-size: 1.3rem;
 }
 
 .col{
@@ -55,9 +50,158 @@ tr:hover{
 
 td,
 th{
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 th{
-  background-color: #336385;
+  background-color: #1B396A;
+}
+
+
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  height: 50vh;
+  overflow:hidden;
+}
+
+ul, li {
+  box-sizing: border-box;
+}
+
+ul.slider {
+  padding: 30px;
+}
+
+ul.slider li {
+  width: 50vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #1B396A;
+  opacity: 0;
+  transition: opacity .5s;
+  padding-top: 30vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: calc( 1.1rem + 1vw );
+  text-align: center;
+}
+
+#slide1 {
+  background-color: #1B396A;
+  color: #fff;
+}
+
+#slide2 {
+  background-color: #1B396A;
+  color: #00324b;
+}
+
+#slide3 {
+  background-color: #1B396A;
+  color: #00324b;
+}
+
+#slide4 {
+  background-color: #00324b;
+  color: #65bce8;
+}
+
+#slide5 {
+  background-color: #65bce8;
+  color: #00324b;
+}
+
+nav {
+  width: 50vw;
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #1B396A;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+nav a {
+  font-size: calc( 1.2rem + 1vw );
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8;
+  flex-grow: 1;
+  text-align: center;
+  border-top: 5px solid #00324b;
+  border-right: 1px solid #00324b;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+nav li:last-child a {
+  border-right: 0;
+}
+
+nav a:hover {
+  background-color: #00324b;
+  color: #fff;
+  border-top-color: #65bce8;
+}
+
+nav a:active {
+  border-top-color: #f90;
+  background: #f90;
+  color: #00324b;
+}
+
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none inside;
+}
+ul.slider {
+  position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slider li {
+  opacity: 0; /*Ocultamos todos los <li>*/
+  transition: opacity .5s;
+  position: absolute; /*Posicionamos en absoluto los <li>*/
+  left: 0px;
+  top: 0px;
+  margin:50px;
+  padding:50px;
+  border:2px solid red;
+  background:#fff;
+}
+ul.slider li:first-child {
+  opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+  opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+nav {
+  position:relative;
+  top:300px;
+}
+
+
+img{
+  height: 420px;
+  width: 1120px;
 }
