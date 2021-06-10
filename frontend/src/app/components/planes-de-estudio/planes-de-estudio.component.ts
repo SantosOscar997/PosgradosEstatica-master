@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { jsPDF } from 'jspdf';
 
 @Component({
   selector: 'app-planes-de-estudio',
@@ -11,5 +12,15 @@ export class PlanesDeEstudioComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  descargar(){
+    const doc = new jsPDF({
+      orientation: 'portrait',
+      unit: 'px'
+    });
+
+  doc.save('documento.pdf');
+  }
 
 }
+
+

@@ -24,6 +24,7 @@ button{
 }
 
 .img-container{
+  border: solid 0.2rem #fff;
   display: flex;
   justify-content: center;
   align-items: initial;
