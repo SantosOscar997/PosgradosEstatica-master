@@ -13,12 +13,8 @@ export class PlanesDeEstudioComponent implements OnInit {
   ngOnInit(): void {
   }
   descargar(){
-    const doc = new jsPDF({
-      orientation: 'portrait',
-      unit: 'px'
-    });
-
-  doc.save('documento.pdf');
+    var doc = new jsPDF();
+    doc.save('documento.pdf');
   }
 
 }
